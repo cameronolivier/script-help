@@ -1,10 +1,14 @@
 {
   "name": "script-help",
-  "version": "1.0.0",
-  "description": "a small node utility that adds quickly shows the scipt commands available in a project",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "a small node utility that adds quickly shows the script commands available in a project",
+  "main": "sh.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "chmod +x sh.js && npm link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "n"
   },
   "keywords": [
     "node",
@@ -14,5 +18,8 @@
     "help"
   ],
   "author": "cameronolivier@gmail.com",
-  "license": "GNU GPL V3"
+  "license": "GNU GPL V3",
+  "bin": {
+    "shelp": "sh.js"
+  }
 }
