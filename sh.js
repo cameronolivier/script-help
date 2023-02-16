@@ -6,7 +6,7 @@ const {logger, logError} = require('./logger');
 
 fs.readFile('./package.json', 'utf8', (err, data) => {
   if (err) {
-    logError('No package.json found in project') 
+    logError('No package.json found in project')
     return
   }
 
