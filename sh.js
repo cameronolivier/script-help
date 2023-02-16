@@ -2,11 +2,11 @@
 
 const fs = require('node:fs');
 const {itemWithDescription} = require('./utils');
-const {logger} = require('./logger');
+const {logger, logError} = require('./logger');
 
 fs.readFile('./package.json', 'utf8', (err, data) => {
   if (err) {
-    console.error(err)
+    logError('No package.json found in project') 
     return
   }
 
