@@ -1,7 +1,7 @@
 {
   "name": "script-help",
   "version": "0.0.1",
-  "description": "a small node utility that adds quickly shows the script commands available in a project",
+  "description": "a small node utility that quickly shows the script commands available in a project",
   "main": "sh.js",
   "scripts": {
     "init": "chmod +x sh.js && npm link"
