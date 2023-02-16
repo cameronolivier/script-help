@@ -1,5 +1,5 @@
 # script-help
-a small node utility that adds quickly shows the script commands available in a project
+a small node utility that quickly shows the script commands available in a project
 
 ## How to make this work:
 1. Clone this repo
